@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DB2995E1AC2D15300DF8E5B /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2995D1AC2D15300DF8E5B /* UIImage+Color.m */; };
+		4DB299601AC301FF00DF8E5B /* top_navigation_infoicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB2995F1AC301FF00DF8E5B /* top_navigation_infoicon@2x.png */; };
+		4DB299621AC3020A00DF8E5B /* top_navigation_menuicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB299611AC3020A00DF8E5B /* top_navigation_menuicon@2x.png */; };
 		4DF22C4A1AC2745A00D77531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF22C491AC2745A00D77531 /* main.m */; };
 		4DF22C4D1AC2745A00D77531 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF22C4C1AC2745A00D77531 /* AppDelegate.m */; };
 		4DF22C501AC2745A00D77531 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF22C4F1AC2745A00D77531 /* ViewController.m */; };
@@ -14,6 +17,8 @@
 		4DF22C551AC2745A00D77531 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF22C541AC2745A00D77531 /* Images.xcassets */; };
 		4DF22C581AC2745A00D77531 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DF22C561AC2745A00D77531 /* LaunchScreen.xib */; };
 		4DF22C641AC2745A00D77531 /* YKLeftMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF22C631AC2745A00D77531 /* YKLeftMenuTests.m */; };
+		4DF22C6E1AC29BFC00D77531 /* sidebar_bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DF22C6D1AC29BFC00D77531 /* sidebar_bg@2x.jpg */; };
+		4DF22C721AC29D4B00D77531 /* YKLeftMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF22C711AC29D4B00D77531 /* YKLeftMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DB2995C1AC2D15300DF8E5B /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		4DB2995D1AC2D15300DF8E5B /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		4DB2995F1AC301FF00DF8E5B /* top_navigation_infoicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top_navigation_infoicon@2x.png"; sourceTree = "<group>"; };
+		4DB299611AC3020A00DF8E5B /* top_navigation_menuicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top_navigation_menuicon@2x.png"; sourceTree = "<group>"; };
 		4DF22C441AC2745A00D77531 /* YKLeftMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKLeftMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF22C481AC2745A00D77531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DF22C491AC2745A00D77531 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +49,9 @@
 		4DF22C5D1AC2745A00D77531 /* YKLeftMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKLeftMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF22C621AC2745A00D77531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DF22C631AC2745A00D77531 /* YKLeftMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YKLeftMenuTests.m; sourceTree = "<group>"; };
+		4DF22C6D1AC29BFC00D77531 /* sidebar_bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sidebar_bg@2x.jpg"; sourceTree = "<group>"; };
+		4DF22C701AC29D4B00D77531 /* YKLeftMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKLeftMenu.h; sourceTree = "<group>"; };
+		4DF22C711AC29D4B00D77531 /* YKLeftMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKLeftMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DB2995B1AC2D10C00DF8E5B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4DB2995C1AC2D15300DF8E5B /* UIImage+Color.h */,
+				4DB2995D1AC2D15300DF8E5B /* UIImage+Color.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		4DF22C3B1AC2745A00D77531 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +102,8 @@
 		4DF22C461AC2745A00D77531 /* YKLeftMenu */ = {
 			isa = PBXGroup;
 			children = (
+				4DB2995B1AC2D10C00DF8E5B /* Category */,
+				4DF22C6F1AC29D3000D77531 /* View */,
 				4DF22C4B1AC2745A00D77531 /* AppDelegate.h */,
 				4DF22C4C1AC2745A00D77531 /* AppDelegate.m */,
 				4DF22C4E1AC2745A00D77531 /* ViewController.h */,
@@ -96,6 +119,9 @@
 		4DF22C471AC2745A00D77531 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4DB2995F1AC301FF00DF8E5B /* top_navigation_infoicon@2x.png */,
+				4DB299611AC3020A00DF8E5B /* top_navigation_menuicon@2x.png */,
+				4DF22C6D1AC29BFC00D77531 /* sidebar_bg@2x.jpg */,
 				4DF22C481AC2745A00D77531 /* Info.plist */,
 				4DF22C491AC2745A00D77531 /* main.m */,
 			);
@@ -117,6 +143,15 @@
 				4DF22C621AC2745A00D77531 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DF22C6F1AC29D3000D77531 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4DF22C701AC29D4B00D77531 /* YKLeftMenu.h */,
+				4DF22C711AC29D4B00D77531 /* YKLeftMenu.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +234,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF22C6E1AC29BFC00D77531 /* sidebar_bg@2x.jpg in Resources */,
 				4DF22C531AC2745A00D77531 /* Main.storyboard in Resources */,
 				4DF22C581AC2745A00D77531 /* LaunchScreen.xib in Resources */,
+				4DB299601AC301FF00DF8E5B /* top_navigation_infoicon@2x.png in Resources */,
+				4DB299621AC3020A00DF8E5B /* top_navigation_menuicon@2x.png in Resources */,
 				4DF22C551AC2745A00D77531 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +259,9 @@
 			files = (
 				4DF22C501AC2745A00D77531 /* ViewController.m in Sources */,
 				4DF22C4D1AC2745A00D77531 /* AppDelegate.m in Sources */,
+				4DB2995E1AC2D15300DF8E5B /* UIImage+Color.m in Sources */,
 				4DF22C4A1AC2745A00D77531 /* main.m in Sources */,
+				4DF22C721AC29D4B00D77531 /* YKLeftMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +452,7 @@
 				4DF22C691AC2745A00D77531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DF22C6A1AC2745A00D77531 /* Build configuration list for PBXNativeTarget "YKLeftMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +461,7 @@
 				4DF22C6C1AC2745A00D77531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
