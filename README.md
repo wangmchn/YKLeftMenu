@@ -5,7 +5,7 @@
 特别感谢MJ老师的教程
 ### LeftMenu
 	提供一个代理方法
-```Obective-C
+```Objective-C
 /**
  *  代理方法，侧边菜单栏点击是触发
  *
@@ -16,7 +16,7 @@
 - (void)leftMenu:(YKLeftMenu *)leftMenu ChangeViewControllerFrom:(NSInteger)fromIndex to:(NSInteger)index;
 ```
 ### A useful method
-```Obective-C
+```Objective-C
 // 用于生成对应color的位图
 + (UIImage *)imageWithColor:(UIColor *)color{
     // 1. 开启基于位图的图形上下文
@@ -33,7 +33,7 @@
 }
 ```
 ## Problem Remains
-```Obective-C
+```Objective-C
 - (void)leftMenu:(YKLeftMenu *)leftMenu ChangeViewControllerFrom:(NSInteger)fromIndex to:(NSInteger)index{
     UINavigationController *oldNav = self.childViewControllers[_currentIndex];
     CGAffineTransform transf = oldNav.view.transform;
